@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url(https://i.postimg.cc/k4mVWDQm/background.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.container{
+    width: 1300px;
+    height: 800px;
+    background-color: black;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 50px;
+    font-family: Verdana, sans-serif;
+}
+header > img{
+    width: 300px;
+    height: 150;
+    margin-top: 20px;
+}
+header{
+    text-align: center;
+}
+header > div{
+    font-size: 27px;
+    color: #00de01;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.zona-pulsanti{
+    background-color: #00de01;
+    width: 1100px;
+    height: 45px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.zona-pulsanti > input{
+    margin-top: 13px;
+}
+.monopattino{
+    margin-left: 100px;
+}
+.monopattino > span{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-mini{
+    color: white;
+    font-size: 16px;
+}
+.medium-battery{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #f4b453;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+}
+.plus-battery{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #1ec31e;
+    width: 700px;
+    height: 35px;
+    border-radius: 5px;  
+}
+.low-battery{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #bd4141;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;  
+}
